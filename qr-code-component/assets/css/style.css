@@ -1,0 +1,31 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    background-color: hsl(212, 45%, 89%);
+    padding-top: 4rem;
+}
+.white-box {
+    background-color: white;
+    width: 20rem;
+    margin:0 auto; 
+    padding: 1rem;
+    border-radius: 5%;
+}
+img{
+    width: 18rem;
+    border-radius: 5%;
+}
+h2{
+    font-weight: 700;
+    color:hsl(218, 44%, 22%);
+    text-align: center;
+}
+p{
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+    text-align: center;
+}
